@@ -9,7 +9,7 @@ The goal of `sptwed` is to carry out statistical inference for spatial Tweedie C
 
 Function | Description
 :--------|:-----------
-`crossvalPll_sptw.R` | \eqn{K}-fold cross-validation (main callable function)
+`crossvalPll_sptw.R` | K-fold cross-validation (main callable function)
 `pathMM_sptw.R` | Warm-start (supporting function)
 `spatial_tweedie.R` | Co-ordinate descent (supporting function)
 
