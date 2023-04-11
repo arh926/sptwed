@@ -5,13 +5,15 @@
 ![Maintainer](https://img.shields.io/badge/maintainer-arh926-blue)
 <!-- badges: end -->
 
-The goal of `sptwed` is to carry out statistical inference for spatial Tweedie Compound Poisson-gamma Double generalized linear models. It leverages a co-ordinate descent algorithm for estimating the coefficients. It contains the following functions
+The goal of `sptwed` is to carry out statistical inference for spatial Tweedie Compound Poisson-gamma Double generalized linear models. It leverages a co-ordinate descent algorithm for estimating the coefficients. It contains the following functions:
 
 Function | Description
 :--------|:-----------
 `crossvalPll_sptw.R` | K-fold cross-validation (main callable function)
 `pathMM_sptw.R` | Warm-start (supporting function)
 `spatial_tweedie.R` | Co-ordinate descent (supporting function)
+
+This is the supporting R-package for tyhe paper titled, "Spatial Tweedie exponential dispersion models: an application to insurance rate-making" DOI: https://doi.org/10.1080/03461238.2021.1921017.
 
 ## Installation
 
