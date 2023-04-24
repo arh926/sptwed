@@ -1,10 +1,10 @@
 Package: sptwed
-Title: What the Package Does (One Line, Title Case)
+Title: An R-package to perform inference for spatial Tweedie Compound Poisson-gamma Double generalized linear models
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Aritra", "Halder", , "aritra.halder@drexel.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-5139-3620"))
+Description: An R-package to perform inference for spatial Tweedie Compound Poisson-gamma Double generalized linear models. It uses a coordiante descent algorithm to perform frequntist inference for DGLMs.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
